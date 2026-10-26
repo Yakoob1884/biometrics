@@ -4,7 +4,7 @@ import * as LocalAuthentication from 'expo-local-authentication'
 export default function App() {
   return (
 
-    <View>
+    <View style={styles.container}>
       <Text>You're in</Text>
     </View>
   
@@ -13,6 +13,8 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-  
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
